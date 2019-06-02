@@ -1,0 +1,384 @@
+*{margin: 0;padding: 0;}
+li{list-style: none}
+a{text-decoration: none}
+img{border: none;vertical-align: middle}
+
+
+.master{
+    width: 100%;
+    height:100%;
+    background:#e3e4e5;
+
+}
+
+.mod-header{
+    width: 100%;
+    background: #e3e4e5;
+}
+
+.top-contend{
+    width: 1240px;
+    height: 36px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+
+.top-contend .topdiva{
+    float: left;
+
+}
+.top-contend a{
+    font-size: 12px;
+    color: #999;
+}
+.top-contend a:hover{
+    color: #23ac38;
+}
+
+.topdiva a{
+    display: inline-block;
+    margin: 0 10px;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+        
+}
+
+.top-contend .topul{
+    float: right;
+}
+.topul li{
+    float: left;
+    position: relative;
+}
+
+.topul li a{
+    display: inline-block;
+    margin: 0 10px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+}
+.topul li:nth-child(3) a{
+    padding-left:26px; 
+}
+
+@keyframes rotateme{
+    0% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    20% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+    70% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+}
+.topul span{
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    width: 22px;
+    height: 15px;
+    background: url(../img/head-icons.png) no-repeat -2px -268px;
+    -webkit-animation: rotateme .3s infinite;
+    animation: rotateme .3s infinite;
+    
+}
+
+.successdl{
+    position: absolute;
+    display: none;
+    height: 36px;
+    width: 200px;
+    background: #e3e4e5;
+    top:-2px;
+    right: 110px;
+    
+}
+
+.successdl>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #f10215;
+    background: #fff;
+    border: 1px solid #e3e4e5;
+
+}
+
+.successdl:hover ul{
+    display: block;
+}
+
+
+.successdl ul{
+    position: absolute;
+    top:36px;
+    left: 0;
+    width: 200px;
+    overflow: hidden;
+    display: none;
+    z-index: 500;
+}
+.successdl ul li{
+    width: 200px;
+    height: 30px;
+    text-align:center;
+    line-height: 30px;
+    background: #f10215;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.godaohang{
+    width: 1240px;
+    height: 105px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.godaohang div{
+    float: left;
+}
+
+.godaohang .search{
+    padding: 30px 0 0 200px;
+    width: 740px;
+}
+
+.search .sinp{
+    float: left;
+    width: 434px;
+    height: 40px;
+    padding: 0 14px;
+    line-height: 40px;
+    border: 1px solid #23ac38;
+    outline: none;
+}
+
+.search .sub{
+    float: left;
+    margin-left: 5px;
+    width: 72px;
+    height: 42px;
+    background:url(../img/head-icons.png) no-repeat 24px -110px #23ac38;
+    border: 0;
+    cursor: pointer;
+}
+
+.search p{
+    margin-top: 9px;
+}
+
+.search p a{
+    margin-right: 10px;
+    color: #848484;
+    font-size: 12px;
+}
+
+.search p a:hover{
+    color: orangered;
+}
+
+
+.myshoppingcar{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #f9f9f9;
+    color: #363636;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.myshoppingcar span:nth-child(1){
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin: 0 6px -3px 7px;
+    background: url(../img/head-icons.png) 0 0 no-repeat;
+}
+
+
+.logeincar{
+    position: relative;
+    width: 158px;
+    height: 42px;
+    margin-left:40px;
+}
+.myshoppingcar:hover{
+    background: #fff;
+    color: #23ac38;
+}
+
+
+.gohiderbox{
+    position: absolute;
+    right: 0;
+    top: 42px;
+    background: #fff;
+    z-index: 101;
+    width: 380px;
+    font-size: 12px;
+    margin-top: -1px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 40px 0;
+    display: none;
+   
+}
+
+.gohiderbox a{
+    color: #23ac38;
+    text-decoration: underline;
+}
+
+.logeincar:hover .aflay{
+    background: #fff;
+    color: #23ac38;
+    border-bottom: none;
+    height: 41px;
+    z-index: 102;
+}
+
+.logeincar:hover .gohiderbox{
+    display: block;
+}
+
+
+.saomao{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background:#fff;
+    z-index: 200; 
+} 
+
+.saomao img{
+    width: 60px;
+    height:60px;
+    float: left;
+}
+
+.saomao .hiddenp{
+    float: left;
+    display: none;
+    padding: 10px 0;
+}
+
+.hiddenp p:nth-child(1){
+    font-size: 12px;
+    padding-left:10px;
+}
+
+.hiddenp p:nth-child(2){
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    width: 100px;
+    color: #f10215;
+    padding-left:10px;
+
+}
+
+.saomao:hover .hiddenp{
+    display: block;  
+}
+
+.daohanglan{
+    width: 1240px;
+    height: 37px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+}
+
+.daohanglan>ul>li{
+    float: left;
+}
+
+.daohanglan>ul>li>a{
+    display: block;
+    height: 37px;
+}
+
+.daohanglan>ul>li:nth-child(1){
+    background: #000;
+    margin-right: 26px;
+    position: relative;
+  
+}
+
+.daohanglan>ul>li:nth-child(1)>a{
+    position: relative;
+    width: 144px;
+    color: #fff;
+    line-height: 37px;
+    padding-left: 36px;
+    margin-left: 30px;
+
+}
+
+.daohanglan>ul>li:nth-child(1)>a>span{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 26px;
+    height: 26px;
+    opacity: 0.6;
+    background: url(../img/head-icons.png) no-repeat 3px -300px;
+}
+.daohanglan>ul>li:nth-child(1):hover span{
+    opacity: 1;
+}
+
+
+.dcomna {
+    padding: 0 12px;
+}
+
+.dcomna a{
+    display: block;
+    line-height: 37px;
+    font-size: 15px;
+    color: #323334;
+}
+
+.dcomna:hover a{
+    color: #4aba00;
+}
+
+

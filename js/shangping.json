@@ -1,0 +1,40 @@
+{
+  "timegoods":[
+      {
+          "id":"01",
+          "title":"LOZ俐智 小颗粒益智拼插积木布朗熊 -9739布朗熊",
+          "img":"img/xianshi01.jpg",
+          "price":"¥39",
+          "delprice":"¥49",
+          "percent":"34%"
+      },
+      {
+        "id":"02",
+        "title":"LOZ 俐智 街景小颗粒积木拼插玩具 1621蛋糕店",
+        "img":"img/xianshi02.jpg",
+        "price":"¥39",
+        "delprice":"¥49",
+        "percent":"35%"
+      },
+      {
+        "id":"03",
+        "title":"LOZ 俐智 迷你街景拼插积木玩具 1717海盗船",
+        "img":"img/xianshi03.jpg",
+        "price":"¥49",
+        "delprice":"¥59",
+        "percent":"36%"
+      },
+      {
+        "id":"04",
+        "title":"LOZ 俐智 迷你街景拼插积木玩具 1721夹娃娃机",
+        "img":"img/xianshi04.jpg",
+        "price":"¥59",
+        "delprice":"¥79",
+        "percent":"31%"
+      }
+
+
+
+
+  ]
+}
